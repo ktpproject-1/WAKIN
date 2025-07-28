@@ -1,1 +1,79 @@
-# WAKIN
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>เว็บไซต์ของฉัน</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #005fa3;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 20px;
+      background-color: white;
+      min-height: 400px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ยินดีต้อนรับสู่เว็บไซต์ของฉัน</h1>
+    <p>เว็บนี้สร้างด้วย HTML และ CSS</p>
+  </header>
+
+  <nav>
+    <a href="#">หน้าแรก</a>
+    <a href="#">เกี่ยวกับ</a>
+    <a href="#">บริการ</a>
+    <a href="#">ติดต่อ</a>
+  </nav>
+
+  <main>
+    <h2>เนื้อหาหลักของเว็บไซต์</h2>
+    <p>นี่คือตัวอย่างเนื้อหาในเว็บไซต์ที่คุณสามารถปรับแต่งได้ตามใจชอบ</p>
+    <p>คุณสามารถใส่รูปภาพ ลิงก์ หรือฟอร์มต่าง ๆ ได้ที่นี่</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 เว็บไซต์ของฉัน - สงวนลิขสิทธิ์</p>
+  </footer>
+
+</body>
+</html>
